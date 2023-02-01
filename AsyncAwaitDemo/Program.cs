@@ -54,10 +54,8 @@ namespace AsyncAwaitDemo
             var response = await httpClient.GetAsync("https://twitter.com/hashtag/dotnet");
             var page = await response.Content.ReadAsStringAsync();
             var fileName = Path.ChangeExtension(Path.GetTempFileName(), ".html");
-            using (var file = File.CreateText(fileName))
-            {
-                await file.WriteAsync(page);
-            }
+            await using var file = File.CreateText(fileName);
+            await file.WriteAsync(page);
             StartProcess(fileName);
         }
     }

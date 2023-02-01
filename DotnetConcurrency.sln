@@ -3,31 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitDemo", "AsyncAwaitDemo\AsyncAwaitDemo.csproj", "{9BFBD2D5-271F-4A3C-87CD-9A7F38B0F743}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwaitDemo", "AsyncAwaitDemo\AsyncAwaitDemo.csproj", "{9BFBD2D5-271F-4A3C-87CD-9A7F38B0F743}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cancellation", "Cancellation\Cancellation.csproj", "{501F1613-C426-485B-B3AC-E13D3AA14727}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cancellation", "Cancellation\Cancellation.csproj", "{501F1613-C426-485B-B3AC-E13D3AA14727}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingBackTheFreeLunch", "GettingBackTheFreeLunch\GettingBackTheFreeLunch.csproj", "{410BC1DD-DB2E-4FA3-88A4-FE6C7AF13640}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingBackTheFreeLunch", "GettingBackTheFreeLunch\GettingBackTheFreeLunch.csproj", "{410BC1DD-DB2E-4FA3-88A4-FE6C7AF13640}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelDemo", "ParallelDemo\ParallelDemo.csproj", "{BFF91711-BC9A-44E3-82F8-B3E76F4E5D89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelDemo", "ParallelDemo\ParallelDemo.csproj", "{BFF91711-BC9A-44E3-82F8-B3E76F4E5D89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelInvoke", "ParallelInvoke\ParallelInvoke.csproj", "{CEAE443A-1E95-4A77-BC79-04E18CEF3DA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelInvoke", "ParallelInvoke\ParallelInvoke.csproj", "{CEAE443A-1E95-4A77-BC79-04E18CEF3DA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelSort", "ParallelSort\ParallelSort.csproj", "{7C2E8261-1FC4-4D3B-9B42-ECE5694A762C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelSort", "ParallelSort\ParallelSort.csproj", "{7C2E8261-1FC4-4D3B-9B42-ECE5694A762C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLINQ", "PLINQ\PLINQ.csproj", "{483B6B06-92A1-4002-A522-E4B1BB8BDC39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PLINQ", "PLINQ\PLINQ.csproj", "{483B6B06-92A1-4002-A522-E4B1BB8BDC39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLINQCancellation", "PLINQCancellation\PLINQCancellation.csproj", "{C1795148-6951-4962-9F2F-243B9858AA73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PLINQCancellation", "PLINQCancellation\PLINQCancellation.csproj", "{C1795148-6951-4962-9F2F-243B9858AA73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDataflowDemo", "SimpleDataflowDemo\SimpleDataflowDemo.csproj", "{EC8CEBAC-325B-44DC-8539-174E6E7E8883}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleDataflowDemo", "SimpleDataflowDemo\SimpleDataflowDemo.csproj", "{EC8CEBAC-325B-44DC-8539-174E6E7E8883}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskContinuation", "TaskContinuation\TaskContinuation.csproj", "{B3F93BB1-71FD-406C-94C1-E29F444798A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskContinuation", "TaskContinuation\TaskContinuation.csproj", "{B3F93BB1-71FD-406C-94C1-E29F444798A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskDataFlowActionBlockDemo", "TaskDataFlowActionBlockDemo\TaskDataFlowActionBlockDemo.csproj", "{AD0B102B-CF2C-45F9-8690-6A40160DA45E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskDataFlowActionBlockDemo", "TaskDataFlowActionBlockDemo\TaskDataFlowActionBlockDemo.csproj", "{AD0B102B-CF2C-45F9-8690-6A40160DA45E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskDataFlowActionBlockParallelDemo", "TaskDataFlowActionBlockParallelDemo\TaskDataFlowActionBlockParallelDemo.csproj", "{21475834-0F73-48D6-8CF3-CE75F639141C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskDataFlowActionBlockParallelDemo", "TaskDataFlowActionBlockParallelDemo\TaskDataFlowActionBlockParallelDemo.csproj", "{21475834-0F73-48D6-8CF3-CE75F639141C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnwrapAndAwait", "UnwrapAndAwait\UnwrapAndAwait.csproj", "{C7B7ECD4-EB34-4E61-AE2D-311587710F54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnwrapAndAwait", "UnwrapAndAwait\UnwrapAndAwait.csproj", "{C7B7ECD4-EB34-4E61-AE2D-311587710F54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Channels", "Channels\Channels.csproj", "{63CE7599-9A6D-450F-83FB-FADB6DDB461C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{C7B7ECD4-EB34-4E61-AE2D-311587710F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7B7ECD4-EB34-4E61-AE2D-311587710F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7B7ECD4-EB34-4E61-AE2D-311587710F54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63CE7599-9A6D-450F-83FB-FADB6DDB461C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63CE7599-9A6D-450F-83FB-FADB6DDB461C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63CE7599-9A6D-450F-83FB-FADB6DDB461C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63CE7599-9A6D-450F-83FB-FADB6DDB461C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
